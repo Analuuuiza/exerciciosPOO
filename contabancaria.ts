@@ -38,3 +38,18 @@ console.log(minhaConta.depositoDaConta(500));
 console.log(minhaConta.saldoDaConta()); 
 console.log(minhaConta.realizarSaque(200));
 console.log(minhaConta.realizarSaque(1500));
+
+let minhaConta2 = new contaBancaria("Ana", 10000);
+console.log(minhaConta2.saldoInicial());
+console.log(minhaConta2.depositoDaConta(500));
+console.log(minhaConta2.saldoDaConta()); 
+console.log(minhaConta2.realizarSaque(200));
+console.log(minhaConta2.realizarSaque(1500));
+
+let minhaConta3 = new contaBancaria("Julia", 7000);
+console.log(minhaConta3.saldoInicial());
+console.log(minhaConta3.depositoDaConta(500));
+console.log(minhaConta3.saldoDaConta()); 
+console.log(minhaConta3.realizarSaque(200));
+console.log(minhaConta3.realizarSaque(1500));
+
